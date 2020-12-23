@@ -9,7 +9,7 @@ type heroProps = {
 
 const Hero = ({title, paragraph} : heroProps) => {
     return (
-        <div className="flex mt-7 justify-center pr-3 pl-3">
+        <div className="flex mt-7 justify-center items-center pr-3 pl-3">
             <div className="max-w-lg p-4 ml-14">
                 <h1 className="text-5xl font-bold">Connecting the <br/>convenience <br/>retail industry</h1>
                 <p className="mt-6 mb-7 font-semibold text-xl">{paragraph}</p>

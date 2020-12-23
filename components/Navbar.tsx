@@ -10,7 +10,7 @@ type navItemsProps = {
 const Navbar = ({items} : navItemsProps) => {
 
     const navItems = items.map((item: string) => {
-        return <li className="list-none text-white">{item}</li>
+        return <li key={item} className="list-none text-white">{item}</li>
     })
 
     return (
