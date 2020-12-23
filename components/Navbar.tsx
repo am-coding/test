@@ -19,7 +19,7 @@ const Navbar = ({items} : navItemsProps) => {
                 {navItems}
             </div> 
             <h1 className="text-primary flex justify-center items-center font-bold text-2xl">
-                <Image src="/light.png" alt="logo" width="54" height="54"/>Skupos
+                <Image src="/Light.png" alt="logo" width="54" height="54"/>Skupos
             </h1>
             <div className="justify-end items-center flex mr-12">
                 <h2 className="mr-9 font-semibold">
