@@ -10,9 +10,9 @@ type heroProps = {
 const Hero = ({title, paragraph} : heroProps) => {
     return (
         <div className="flex mt-7 justify-center pr-3 pl-3">
-            <div className="max-w-lg p-12 ml-14">
+            <div className="max-w-lg p-4 ml-14">
                 <h1 className="text-5xl font-bold">Connecting the <br/>convenience <br/>retail industry</h1>
-                <p className="mt-7 mb-8 font-semibold text-xl">{paragraph}</p>
+                <p className="mt-6 mb-7 font-semibold text-xl">{paragraph}</p>
                 <div className="grid grid-cols-2 gap-4">
                     <Button
                     title={"I'm a retailer"}
@@ -28,7 +28,7 @@ const Hero = ({title, paragraph} : heroProps) => {
                     border={'1px solid rgba(10, 37, 51, 0.1)'}
                     />
                 </div>
-                <p className="text-custom mt-14 mb-3 text-sm">Over 14,000 retailers & brands use Skupos</p>
+                <p className="text-custom mt-10 mb-3 text-sm">Over 14,000 retailers & brands use Skupos</p>
                 <Image src="/logos.png" alt="me" width="600" height="60" />
             </div>
 
