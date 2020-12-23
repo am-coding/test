@@ -1,5 +1,5 @@
-import Navbar from '../components/Navbar';
-import Hero from '../components/Hero';
+import Navbar from '../components/organisms/Navbar';
+import Hero from '../components/templates/Hero';
 
 export default function IndexPage() {
 

@@ -1,16 +1,17 @@
-import React from 'react';
-import Button from './Button';
+import { FC } from 'react';
+import Button from '../atoms/Button';
 import Link from 'next/link'
 import Image from 'next/image'
+import { colors } from '../../constants';
 
-type navItemsProps = {
+interface navItemsProps {
     items: string[],
 }
 
-const Navbar = ({items} : navItemsProps) => {
+const Navbar: FC<navItemsProps> = ({items}) => {
 
-    const navItems = items.map((item: string) => {
-        return <li key={item} className="list-none text-white">{item}</li>
+    const navItems = items.map((item: string, index: number) => {
+        return <li key={index} className="list-none text-white">{item}</li>
     })
 
     return (
@@ -23,12 +24,12 @@ const Navbar = ({items} : navItemsProps) => {
             </h1>
             <div className="justify-end items-center flex mr-12">
                 <h2 className="mr-9 font-semibold">
-                 <Link href="">Log in</Link>
+                 <Link href="/">Log in</Link>
                 </h2>
             <Button
                 title={'Get Started'}
-                bgColor={'#00B481'}
-                txtColor={'#fff'}
+                bgColor={colors.skGreen}
+                txtColor={colors.white}
                 border={'none'}
              />
             </div>

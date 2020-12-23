@@ -1,13 +1,14 @@
-import React from 'react';
-import Button from './Button';
+import { FC } from 'react';
+import Button from '../atoms/Button';
 import Image from 'next/image'
+import { colors } from '../../constants';
 
-type heroProps = {
-    title: string,
+interface heroProps {
+    title?: string,
     paragraph: string,
 }
-
-const Hero = ({title, paragraph} : heroProps) => {
+ 
+const Hero: FC <heroProps> = ({paragraph}) => {
     return (
         <div className="flex mt-7 justify-center items-center pr-3 pl-3">
             <div className="max-w-lg p-4 ml-14">
@@ -16,15 +17,15 @@ const Hero = ({title, paragraph} : heroProps) => {
                 <div className="grid grid-cols-2 gap-4">
                     <Button
                     title={"I'm a retailer"}
-                    bgColor={'#00B481'}
-                    txtColor={'#fff'}
+                    bgColor={colors.skGreen}
+                    txtColor={colors.white}
                     border={'none'}
                     />
 
                     <Button
                     title={"I'm a Brand"}
-                    bgColor={'#e7e7e7'}
-                    txtColor={'#333'}
+                    bgColor={colors.semiWhite}
+                    txtColor={colors.gray}
                     border={'1px solid rgba(10, 37, 51, 0.1)'}
                     />
                 </div>
