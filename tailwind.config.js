@@ -5,6 +5,7 @@ module.exports = {
     backgroundColor:{
      'primary': '#00B481',
      'secondary': '#333',
+     'gray': '#e7e7e7',
     },
     textColor: {
       'primary': '#00B481',
