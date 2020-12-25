@@ -1,11 +1,8 @@
 import {FC} from 'react';
-import FlexItem from '../molecules/flexItem';
+import FlexItem from '../molecules/FlexItem';
 
-interface sectionProps {
 
-}
-
-const Section1: FC <sectionProps> = () => {
+const Section1: FC = () => {
     return (
         <div className="pl-32 pr-32 pt-20">
             <h1 className="text-4xl ml-20 font-bold pb-12">Powering smarter decisions</h1>
