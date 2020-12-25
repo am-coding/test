@@ -1,5 +1,5 @@
 import {FC} from 'react';
-import FlexItem from '../molecules/FlexItem';
+import FlexItem from '../molecules/flexItem';
 
 const Section1: FC = () => {
     return (
