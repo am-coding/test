@@ -5,6 +5,10 @@ export const colors = {
    gray: '#333333',
    berry: '#D42859',
    orange: '#F8962F',
+   skBlack: '#0A2533',
+   yellow: '#FBD224',
+   lightGray: '#F5F7FA',
+
   };
   
 export const gridData = [

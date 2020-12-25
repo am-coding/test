@@ -1,5 +1,4 @@
 import {FC} from 'react';
-import Button from '../atoms/Button'
 import { colors } from '../../constants';
 
 interface itemProps {

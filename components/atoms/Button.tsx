@@ -15,7 +15,7 @@ const Button: FC<ButtonProps> = ({
 }) => {
 
     return (
-        <button style={{backgroundColor: bgColor, color: txtColor, border: border}} className="p-2 font-semibold pr-6 pl-6 rounded-full">
+        <button style={{backgroundColor: bgColor, color: txtColor, border: border}} className="p-3 font-semibold pr-7 pl-7 rounded-full">
             {title}
         </button>
     )
