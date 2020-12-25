@@ -1,7 +1,6 @@
 import {FC} from 'react';
 import FlexItem from '../molecules/FlexItem';
 
-
 const Section1: FC = () => {
     return (
         <div className="pl-32 pr-32 pt-20">
